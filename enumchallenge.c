@@ -3,7 +3,7 @@
 
 int main() {
 
-  enum company {GOOGLE, FACEBOOK, XEROX, YAHOO, EBAY, MICROSOFT};
+  enum company {GOOGLE, FACEBOOK, XEROX, YAHOO = 10, EBAY, MICROSOFT};
 
   enum company google = GOOGLE;
   enum company xerox = XEROX;
